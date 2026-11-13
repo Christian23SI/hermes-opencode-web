@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumio AI — Layanan kecerdasan buatan untuk bisnis lokal: chatbot, analisis data, otomatisasi, dan integrasi." />
+  <title>Lumio AI — Layanan Kecerdasan Buatan untuk Bisnis Lokal</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%234f46e5'/><text x='50' y='72' font-size='58' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-weight='700'>AI</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#beranda" class="logo" aria-label="Lumio AI ke beranda">
+        <span class="logo__mark">AI</span>
+        <span class="logo__name">Lumio<span class="logo__accent">AI</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Utama">
+        <ul class="nav__list">
+          <li><a href="#layanan" class="nav__link">Layanan</a></li>
+          <li><a href="#alur" class="nav__link">Alur Kerja</a></li>
+          <li><a href="#kenapa" class="nav__link">Kenapa Kami</a></li>
+          <li><a href="#testimoni" class="nav__link">Testimoni</a></li>
+          <li><a href="#kontak" class="nav__link nav__link--cta">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav" type="button">
+        <span class="nav__toggle-icon"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="beranda">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__top">
+          <span class="badge">Layanan AI untuk bisnis lokal</span>
+          <h1 class="hero__title">
+            Tambah nilai bisnis dengan <span class="hero__title--accent">AI yang siap pakai</span>
+          </h1>
+          <p class="hero__lead">
+            Lumio AI membantu UMKM dan klien lokal menciptakan solusi kecerdasan buatan tanpa ribet.
+            Dari chatbot, analisis data, sampai otomatisasi harian.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#kontak">Mulai Diskusi Gratis</a>
+            <a class="btn btn--ghost" href="#layanan">Lihat Layanan</a>
+          </div>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__value">50+</span>
+            <span class="stat__label">Proyek AI</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">30+</span>
+            <span class="stat__label">Klien lokal</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">98%</span>
+            <span class="stat__label">Kepuasan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__mockup" aria-hidden="true">
+        <div class="mockup">
+          <div class="mockup__top">
+            <span class="mockup__tab"></span>
+            <span class="mockup__close"></span>
+          </div>
+          <div class="mockup__body">
+            <div class="mockup__chat">
+              <div class="mockup__msg mockup__msg--own">Siap bantu! 👋</div>
+              <div class="mockup__msg mockup__msg--bot">Halo, saya asisten AI Lumio. Ada yang bisa saya bantu hari ini?</div>
+              <div class="mockup__msg mockup__msg--own">Bisakah bantu analisa data penjualan?</div>
+              <div class="mockup__msg mockup__msg--bot">Tentu! Saya bisa ringkas tren penjualan harian dan bulanan. Ceritakan datanya.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services" id="layanan">
+    <div class="container">
+      <div class="section__head">
+        <p class="section__eyebrow">Layanan</p>
+        <h2 class="section__title">Solusi AI yang sesuai kebutuhan bisnis Anda</h2>
+        <p class="section__desc">
+          Kami bekerja sama dari konsep hingga peluncuran, dengan tim yang memahami dunia usaha lokal.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <article class="card">
+          <div class="card__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21a8 8 0 0 0 16 0" />
+              <path d="M10 21h28" />
+              <path d="M14 28h10" />
+              <circle cx="24" cy="9" r="2" />
+            </svg>
+          </div>
+          <h3>Chatbot Percakapan</h3>
+          <p>
+            Bot obrolan khusus usaha Anda yang bisa menjawab tanya pelanggan, kirim informasi,
+            dan bantu booking 24/7.
+          </p>
+          <a class="card__link" href="#kontak">Pelajari selengkapnya <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18" />
+              <path d="M21 21v18h18" />
+              <path d="M12 6h12" />
+              <path d="M24 15h6" />
+            </svg>
+          </div>
+          <h3>Analisis Data &amp; Visualisasi</h3>
+          <p>
+            Ubah laporan penjualan dan inventori menjadi wawasan berbasis AI yang mudah dipahami.
+          </p>
+          <a class="card__link" href="#kontak">Pelajari selengkapnya <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 20 24 4 36 20" />
+              <path d="M24 4v16" />
+              <path d="M12 20h24" />
+              <path d="M12 32h12" />
+            </svg>
+          </div>
+          <h3>Automasi Proses</h3>
+          <p>
+            Automasi tugas repetitif seperti konfirmasi, inventaris, dan laporan dengan kombinasi aturan + AI.
+          </p>
+          <a class="card__link" href="#kontak">Pelajari selengkapnya <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22h12" />
+              <path d="M9 22V12a9 9 0 0 1 18 0v10" />
+              <path d="M9 22h12" />
+            </svg>
+          </div>
+          <h3>Integrasi Teknologi</h3>
+          <p>
+            Sambungkan AI dengan CRM, POS, WhatsApp, dan tools lain yang sudah dipakai tim Anda.
+          </p>
+          <a class="card__link" href="#kontak">Pelajari selengkapnya <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 4a2 2 0 0 1 2-2h8l1 3a2 2 0 0 1 0 4l-4 3a2 2 0 0 1-2 0l-4-3a2 2 0 0 1 0-4l1-3h8a2 2 0 0 1 2 2z" />
+              <path d="M9 14h3" />
+            </svg>
+          </div>
+          <h3>Konversi Dokumen</h3>
+          <p>
+            Tarik informasi penting dari PDF, nota, dan catalog ke format yang siap digunakan.
+          </p>
+          <a class="card__link" href="#kontak">Pelajari selengkapnya <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3" />
+              <circle cx="36" cy="12" r="3" />
+              <circle cx="24" cy="36" r="3" />
+              <path d="M15 14h6" />
+              <path d="M30 31h6" />
+              <path d="M15 35h3" />
+              <path d="M39 24h3" />
+            </svg>
+          </div>
+          <h3>Konsultasi &amp; Pelatihan</h3>
+          <p>
+            Sosialisasi AI untuk tim dan pemilik usaha agar bisa pakai alatnya langsung.
+          </p>
+          <a class="card__link" href="#kontak">Pelajari selengkapnya <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section workflow" id="alur">
+    <div class="container">
+      <div class="section__head">
+        <p class="section__eyebrow">Alur Kerja</p>
+        <h2 class="section__title">Dari konsultasi hingga peluncuran</h2>
+        <p class="section__desc">
+          Proses yang jelas dan transparan, tanpa lompatan yang membuat Anda bingung.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li class="step">
+          <div class="step__num">01</div>
+          <div class="step__content">
+            <h3>Konsultasi &amp; Kebutuhan</h3>
+            <p>
+              Kami dengar kebutuhan Anda, target pasar, dan batasan teknis yang ada.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step__num">02</div>
+          <div class="step__content">
+            <h3>Desain Solusi</h3>
+            <p>
+              Kami rancang arsitektur, alur kerja, dan tampilan yang sesuai kebutuhan Anda.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step__num">03</div>
+          <div class="step__content">
+            <h3>Implementasi &amp; Integrasi</h3>
+            <p>
+              Kode ditulis, dibundel dengan sistem yang sudah ada, dan diuji.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step__num">04</div>
+          <div class="step__content">
+            <h3>Uji &amp; Pelatihan</h3>
+            <p>
+              Anda dan tim menguji, hasilnya disempurnakan, lalu dilatih Pengguna.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step__num">05</div>
+          <div class="step__content">
+            <h3>Peluncuran &amp; Dukungan</h3>
+            <p>
+              Diluncurkan, dipantau, dan ada tim yang membantu ketika ada masalah.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section kenapa" id="kenapa">
+    <div class="container">
+      <div class="section__head">
+        <p class="section__eyebrow">Kenapa Lumio AI</p>
+        <h2 class="section__title">Udah kenal kebutuhan bisnis lokal</h2>
+        <p class="section__desc">
+          Bukan sekadar teknologi, kami yang peduli soal bagaimana alat itu digunakan.
+        </p>
+      </div>
+
+      <div class="kenapa__grid">
+        <div class="feature">
+          <div class="feature__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h5" />
+              <path d="M12 26h11" />
+              <path d="M12 32h11" />
+              <path d="M12 38h6" />
+              <circle cx="27" cy="26" r="4" />
+              <circle cx="27" cy="34" r="4" />
+            </svg>
+          </div>
+          <h3>Tim Ahli Bisnis &amp; Teknis</h3>
+          <p>
+            Konsultan yang paham industri lokal sekaligus praktisi pengembangan perangkat lunak.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22h12" />
+              <path d="M9 22V12a9 9 0 0 1 18 0v10" />
+              <path d="M9 22h9" />
+              <path d="M18 12h7" />
+              <path d="M20 8h5" />
+            </svg>
+          </div>
+          <h3>Solusi yang Terukur</h3>
+          <p>
+            Setiap proyek memiliki indikator keberhasilan yang jelas sejak awal.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="14" width="36" height="26" rx="4" />
+              <path d="M12 14v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4" />
+              <path d="M8 22h12" />
+              <path d="M14 26h6" />
+            </svg>
+          </div>
+          <h3>Keamanan &amp; Privasi</h3>
+          <p>
+            Data klien diolah dengan kebijakan penyimpanan dan akses yang jelas.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature__icon">
+            <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="6" width="36" height="36" rx="6" />
+              <path d="M12 20h12" />
+              <path d="M12 28h6" />
+              <path d="M20 36h12" />
+            </svg>
+          </div>
+          <h3>Dukungan Berkelanjutan</h3>
+          <p>
+            Tim dukungan siap membantu saat ada perubahan kebutuhan atau kerusakan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimoni">
+    <div class="container">
+      <div class="section__head">
+        <p class="section__eyebrow">Testimoni</p>
+        <h2 class="section__title">Apa kata klien kami</h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <figure class="quote">
+          <svg class="quote__mark" viewBox="0 0 48 48" fill="currentColor">
+            <path d="M12 24c0-6.6 5.4-12 12-12s12 5.4 12 12-5.4 12-12 12-12-5.4-12-12z" />
+          </svg>
+          <blockquote>
+            “Alat ini membantu tim kami lebih cepat merespons kebutuhan pelanggan.”
+          </blockquote>
+          <figcaption>— Rina S., Penggajian &amp; Sampul, UMKM celebriti</figcaption>
+        </figure>
+
+        <figure class="quote">
+          <svg class="quote__mark" viewBox="0 0 48 48" fill="currentColor">
+            <path d="M12 24c0-6.6 5.4-12 12-12s12 5.4 12 12-5.4 12-12 12-12-5.4-12-12z" />
+          </svg>
+          <blockquote>
+            “Prosesnya jelas dari awal sampai diimplementasikan di lokasi kantor kami.”
+          </blockquote>
+          <figcaption>— Bambang H., Pemilik ritel sepatu lokal</figcaption>
+        </figure>
+
+        <figure class="quote">
+          <svg class="quote__mark" viewBox="0 0 48 48" fill="currentColor">
+            <path d="M12 24c0-6.6 5.4-12 12-12s12 5.4 12 12-5.4 12-12 12-12-5.4-12-12z" />
+          </svg>
+          <blockquote>
+            “Pelatihan yang diberikan memudahkan seluruh staf menggunakan sistem tanpa panik.”
+          </blockquote>
+          <figcaption>— Dewi P., Manajer operasional usaha kuliner</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section kontak" id="kontak">
+    <div class="container kontak__inner">
+      <div class="kontak__card">
+        <div class="kontak__main">
+          <p class="section__eyebrow">Kontak</p>
+          <h2 class="section__title">Siap mulai proyek AI?</h2>
+          <p class="section__desc">
+            Kirimkan kebutuhan Anda, kami akan hubungi Anda dalam waktu 1x24 jam untuk sesi awal.
+          </p>
+
+          <form class="form" id="contactForm" novalidate>
+            <div class="form__field">
+              <label for="name">Nama</label>
+              <input id="name" name="name" type="text" placeholder="Nama lengkap" required />
+            </div>
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="email@contoh.com" required />
+            </div>
+            <div class="form__field">
+              <label for="service">Layanan yang minati</label>
+              <select id="service" name="service">
+                <option value="">Pilih layanan</option>
+                <option>Chatbot Percakapan</option>
+                <option>Analisis Data &amp; Visualisasi</option>
+                <option>Automasi Proses</option>
+                <option>Integrasi Teknologi</option>
+                <option>Konversi Dokumen</option>
+                <option>Konsultasi &amp; Pelatihan</option>
+                <option>Lainnya</option>
+              </select>
+            </div>
+            <div class="form__field">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Ceritakan kebutuhan proyek Anda..."></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Kirim Pesan</button>
+            <p class="form__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+
+        <div class="kontak__aside">
+          <div class="kontak__info">
+            <h3>Informasi</h3>
+            <p><span class="label">Email:</span> carlos@lumio.ai</p>
+            <p><span class="label">Telepon:</span> 0812-3456-7890</p>
+            <p><span class="label">Alamat:</span> Jl.Umban Sari, Rumbai, Pekanbaru</p>
+          </div>
+          <div class="kontak__info">
+            <h3>Media Sosial</h3>
+            <div class="social">
+              <a href="#" aria-label="Instagram">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58 0 4.86.07 1.16.06 1.84.25 2.41.52.62.32.99.74 1.33 1.34.3.46.46.81.46 1.31 0 .57-.16 1.05-.48 1.45-.31.4-.77.64-1.33.64h-2.6c-1.01 0-1.48-.37-1.89-.96-.4-.59-.5-1.29-.33-1.88.14-.54.47-.97.96-1.35.49-.38.88-.55 1.33-.55h2.6c.72 0 1.16.24 1.46.66.3.42.45.84.45 1.43 0 .58-.16 1.05-.47 1.41-.32.38-.78.6-1.33.6-.38 0-.73-.12-1.03-.35-.3-.23-.53-.55-.63-.94.2.17.42.33.66.48.17.11.35.2.53.27.14.06.28.09.42.09h1.2c.9 0 1.23-.39 1.45-.86.22-.47.24-.9.18-1.14-.07-.12-.17-.22-.3-.31l-1.35-.81zM8.54 3.99a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88zM6.25 6.24h11.51c.46 0 .73.3.73.68V8.4h-11.5v-1.42c0-.38.27-.68.73-.68zM6.25 12.24h11.51c.46 0 .73.3.73.68v1.42h-11.51v-1.42c0-.38.27-.68.73-.68z"/></svg>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2c-.8.35-1.65.56-2.55.65a4 4 0 0 0 1.85-2.46 8 8 0 0 1-2.6 1 4 4 0 0 0-7 3.9V10c0 .5-.4 1-1 1H6.5c-.5 0-1-.5-1-1V7.5c0-.5.5-1 1-1h2c.5 0 1 0 1.5-.4.05-.4.18-1.15.36-2.05 1.8-1.8 3.2-4.1 3.6-6.6zM7.5 12.5c-1.3 1.5-1.9 3.3-1.9 5.3v1.2h3.8v-1.2c0-2-.6-3.8-1.9-5.3zM12 8c.6 2.3 1 4.5 1 6.8v1.2H11V8c0-2.3.4-4.5 1-6.8z"/></svg>
+              </a>
+              <a href="#" aria-label="TikTok">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5v-4h2v4c0 1.1-.9 2-2 2h-2c-1.1 0-2-.9-2-2zm11-3c0 3.87-3.13 7-7 7s-7-3.13-7-7 3.13-7 7-7 7 3.13 7 7z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="login">
+    <div class="container">
+      <div class="login__card">
+        <div class="login__head">
+          <p class="login__eyebrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+            Login
+          </p>
+          <h2 class="login__title">Masuk ke akun Anda</h2>
+          <p class="login__desc">Silakan masukkan email dan password untuk melanjutkan.</p>
+        </div>
+
+        <form class="login__form" id="loginForm" novalidate>
+          <div class="login__field">
+            <label class="login__label" for="loginEmail">Email</label>
+            <div class="login__input-wrap">
+              <input
+                id="loginEmail"
+                name="email"
+                type="email"
+                placeholder="email@lumio.ai"
+                autocomplete="email"
+                required
+                aria-describedby="loginError"
+              />
+              <button type="button" class="login__toggle-pass" aria-label="Lihat password">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="login__field login__field--password">
+            <label class="login__label" for="loginPassword">Password</label>
+            <div class="login__input-wrap">
+              <input
+                id="loginPassword"
+                name="password"
+                type="password"
+                placeholder="Masukkan password Anda"
+                autocomplete="current-password"
+                required
+                aria-describedby="loginError"
+              />
+              <button type="button" class="login__toggle-pass" aria-label="Sembunyikan password">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
+                  <line x1="1" y1="1" x2="23" y2="23"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="login__row">
+            <label class="login__checkbox">
+              <input type="checkbox" />
+              <span class="login__checkbox-mark"></span>
+              <span>Ingat saya</span>
+            </label>
+            <a href="#lupa-password" class="login__forgot">Lupa password?</a>
+          </div>
+
+          <button class="btn btn--primary btn--login" type="submit">
+            <span class="btn__text">Masuk</span>
+            <span class="btn__spinner"></span>
+          </button>
+
+          <p class="login__status" id="loginStatus" role="status"></p>
+        </form>
+
+        <p class="login__signup">
+          Belum punya akun? <a href="#daftar">Daftar</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#beranda" class="logo">
+            <span class="logo__mark">AI</span>
+            <span class="logo__name">Lumio<span class="logo__accent">AI</span></span>
+          </a>
+          <p>Layanan kecerdasan buatan untuk bisnis lokal.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Situs ini</h4>
+            <ul>
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#layanan">Layanan</a></li>
+              <li><a href="#alur">Alur Kerja</a></li>
+              <li><a href="#testimoni">Testimoni</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Layanan</h4>
+            <ul>
+              <li><a href="#kontak">Konsultasi</a></li>
+              <li><a href="#layanan">Chatbot</a></li>
+              <li><a href="#layanan">Analisis Data</a></li>
+              <li><a href="#layanan">Integrasi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copy">&copy; 2026 Lumio AI. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    (function () {
+      var form = document.getElementById('loginForm');
+      var status = document.getElementById('loginStatus');
+      var emailInput = form.email;
+      var passwordInput = form.password;
+      var togglePassButtons = document.querySelectorAll('.login__toggle-pass');
+      var checkbox = form.querySelector('.login__checkbox input');
+
+      togglePassButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var field = this.closest('.login__field');
+          var input = field.querySelector('input');
+          var isPassword = input.getAttribute('type') === 'password';
+          input.setAttribute('type', isPassword ? 'text' : 'password');
+          this.setAttribute('aria-label', isPassword ? 'Sembunyikan password' : 'Lihat password');
+          input.setAttribute('autocomplete', isPassword ? 'current-password' : 'off');
+        });
+      });
+
+      checkbox.addEventListener('change', function () {
+        passwordInput.setAttribute('autocomplete', this.checked ? 'username' : 'current-password');
+      });
+
+      emailInput.addEventListener('blur', function () {
+        if (!emailInput.value.trim()) {
+          setError(emailInput, 'Email wajib diisi.');
+        } else if (!isValidEmail(emailInput.value)) {
+          setError(emailInput, 'Masukkan format email yang valid.');
+        } else {
+          clearError(emailInput);
+        }
+      });
+
+      passwordInput.addEventListener('blur', function () {
+        if (!passwordInput.value) {
+          setError(passwordInput, 'Password wajib diisi.');
+        } else {
+          clearError(passwordInput);
+        }
+      });
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var valid = true;
+        [emailInput, passwordInput].forEach(function (input) {
+          clearError(input);
+        });
+
+        if (!emailInput.value.trim()) {
+          setError(emailInput, 'Email wajib diisi.');
+          valid = false;
+        } else if (!isValidEmail(emailInput.value)) {
+          setError(emailInput, 'Masukkan format email yang valid.');
+          valid = false;
+        }
+
+        if (!passwordInput.value) {
+          setError(passwordInput, 'Password wajib diisi.');
+          valid = false;
+        }
+
+        if (!valid) return;
+
+        var btn = form.querySelector('.btn--login');
+        btn.disabled = true;
+        status.textContent = '';
+        status.className = 'login__status';
+        btn.querySelector('.btn__text').innerHTML = 'Memproses&hellip;';
+        btn.querySelector('.btn__spinner').style.display = 'flex';
+
+        setTimeout(function () {
+          status.textContent = 'Login berhasil (demo). Selamat datang, ' + emailInput.value.trim() + '!';
+          status.className = 'login__status login__status--success';
+          form.reset();
+          checkbox.checked = false;
+          btn.disabled = false;
+          btn.querySelector('.btn__text').textContent = 'Masuk';
+          btn.querySelector('.btn__spinner').style.display = 'none';
+          passwordInput.value = '';
+          passwordInput.focus();
+        }, 900);
+      });
+
+      function isValidEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      }
+
+      function setError(input, message) {
+        var field = input.closest('.login__field');
+        field.classList.add('login__field--error');
+        status.textContent = message;
+        status.className = 'login__status login__status--error';
+      }
+
+      function clearError(input) {
+        input.closest('.login__field').classList.remove('login__field--error');
+      }
+    })();
+  </script>
+</body>
+</html>

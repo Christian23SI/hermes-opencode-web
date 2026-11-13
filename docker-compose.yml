@@ -1,0 +1,21 @@
+services:
+  web:
+    build: .
+    image: lumio-ai-web:latest
+    container_name: lumio-ai-web
+    restart: unless-stopped
+    ports:
+      # Map host port 8080 -> container port 80 (Nginx default).
+      - "8080:80"
+    environment:
+      # No secrets or API keys here. Application config only.
+      - TZ=Asia/Jakarta
+    volumes:
+      # Development: auto-reload with a bind mount (safe for static files).
+      - ./:/usr/share/nginx/html:ro
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge

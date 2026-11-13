@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+.venv
+
+# Environment files (keep secrets out of the image)
+.env
+.env.*
+!/.env.example
+
+# System/macOS files
+.DS_Store
+.idea
+.vscode
+*.log
+npm-debug.log*
+
+# OS metadata
+Thumbs.db
